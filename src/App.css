@@ -39,3 +39,11 @@
 body{
   background: rgba(18, 155, 150, 0.39);
 }
+.list-employee{
+  margin-top:50px;
+}
+.employee-detail label{
+  width: 100%;
+  text-align: left;
+}
+.mgr-10{margin-right:10px;}
