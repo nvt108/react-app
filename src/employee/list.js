@@ -90,10 +90,13 @@ class Employee extends Component{
             <div >
                 <div className="col-md-12 list-employee">
                     <h3>Employees</h3>
-                    <form className="navbar-search pull-left">
-                        <input type="text" ref={(input) => {this.searchInput = input}} name="search" className="search-query" placeholder="Search" onKeyDown={this.search} />
+                    <form className="navbar-form navbar-left">
+                        <div className="form-group">
+                            <input type="text" ref={(input) => {this.searchInput = input}} name="search" className="form-control input-search" placeholder="Search" onChange={this.search} />
+                            <Link to={{pathname: '/add'}} className="btn btn-primary float-right mb-2">Add New</Link>
+                        </div>
                     </form>
-                    <Link to={{pathname: '/add'}} className="btn btn-primary float-right mb-2">Add New</Link>
+
                     <table className="table">
                         <thead>
                             <tr>
