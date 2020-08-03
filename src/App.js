@@ -8,6 +8,7 @@ import Blog from './components/blog';
 
 import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import EmployeeDetail from "./employee/detail";
+import EmployeeAdd from "./employee/add";
 
 class App extends Component{
     render(){
@@ -41,6 +42,7 @@ class App extends Component{
                         <Route path='/detail/:id' component={EmployeeDetail} />
                         <Route path='/about' component={About} />
                         <Route path='/blog' component={Blog} />
+                        <Route path='/add' component={EmployeeAdd} />
                     </Switch>
                 </div>
             </Router>

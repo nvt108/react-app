@@ -1,56 +1,45 @@
 [{
-  "id": 1,
   "name": "TrungNV1",
   "email": "trung1@gmail.com",
   "phone": "0988 888 888"
 }, {
-  "id": 2,
   "name": "TrungNV2",
   "email": "trung2@gmail.com",
   "phone": "0988 999 999"
 }, {
-  "id": 3,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 4,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 5,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 6,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 7,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 8,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 9,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 10,
   "name": "TrungNV3",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }, {
-  "id": 11,
-  "name": "TrungNV3",
+  "name": "TrungNV34",
   "email": "trung3@gmail.com",
   "phone": "0983 999 999"
 }
