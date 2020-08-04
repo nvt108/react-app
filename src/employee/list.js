@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios'
 import { Link,Route } from 'react-router-dom';
 import EmployeeDetail from "./detail";
-
+const appRoot = __dirname;
 class Employee extends Component{
     constructor(props) {
         super(props)
@@ -104,6 +104,7 @@ class Employee extends Component{
                                 <th scope="col">Name</th>
                                 <th scope="col">Email</th>
                                 <th scope="col">Phone</th>
+                                <th scope="col">Image</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
@@ -116,6 +117,7 @@ class Employee extends Component{
                                     </td>
                                     <td>{employee.email}</td>
                                     <td>{employee.phone}</td>
+                                    <td><div className="prifile_image"><img  src={employee.img} width="50" height="50" /></div></td>
                                     <td>
                                         <button className="btn btn-danger" type="button" onClick={() => this.removeEmployee(employee._id)}>Remove</button>
                                     </td>
